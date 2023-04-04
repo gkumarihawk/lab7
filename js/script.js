@@ -10,11 +10,11 @@ function init(){
  	var entrybutton = document.getElementById('entrybutton');
  	entrybutton.addEventListener ('click', myEventFunction);
 
- 	// entrybutton.addEventListener('click', function(){
- 	// 	var textoutput = document.getElementById('textoutput');
- 	// 	textoutput.innerHTML = userInput;
+ 	entrybutton.addEventListener('click', function(){
+ 	var textoutput = document.getElementById('textoutput');
+ 	textoutput.innerHTML = userInput;
 
- 	// }
+ 	});
 
 
 
