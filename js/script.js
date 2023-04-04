@@ -5,8 +5,8 @@ function init(){
  		alert ('Gauri Kumari:' + entryinput);
  	}
 
- 	var entryinput = document.getElementById('entryinput');
- 	entryinput.addEventListener ('click', myEventFunction);
+ 	var entrybutton = document.getElementById('entrybutton');
+ 	entrybutton.addEventListener ('click', myEventFunction);
 
 
 
