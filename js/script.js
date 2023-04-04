@@ -1,18 +1,13 @@
 function init(){
 //add your javascript between these two lines of code
 	var entryinput = document.getElementById('entryinput');
-	
- 	function myEventFunction (){
- 		var userInput = entryinput.value;
- 		alert ('Gauri Kumari:' + userInput);
- 	}
-
+	var textoutput = document.getElementById('textoutput');
  	var entrybutton = document.getElementById('entrybutton');
- 	entrybutton.addEventListener ('click', myEventFunction);
+ 	//entrybutton.addEventListener ('click', myEventFunction);
 
  	entrybutton.addEventListener('click', function(){
- 	var textoutput = document.getElementById('textoutput');
- 	textoutput.innerHTML = userInput;
+  		alert("Gauri Kumari:" + entryinput.value); 	
+ 	 	textoutput.innerHTML = entryinput.value;
 
  	});
 
