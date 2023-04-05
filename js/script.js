@@ -9,6 +9,5 @@ function init(){
  	 	textoutput.innerHTML = entryinput.value;
 
  	});
-
-window.addEventListener('load', init);
 }
+window.addEventListener('load', init);
