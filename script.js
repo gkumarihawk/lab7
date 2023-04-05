@@ -3,7 +3,6 @@ function init(){
 	var entryinput = document.getElementById('entryinput');
 	var textoutput = document.getElementById('textoutput');
  	var entrybutton = document.getElementById('entrybutton');
- 	//entrybutton.addEventListener ('click', myEventFunction);
 
  	entrybutton.addEventListener('click', function(){
   		alert("Gauri Kumari:" + entryinput.value); 	
@@ -11,6 +10,5 @@ function init(){
 
  	});
 
-
-
 window.addEventListener('load', init);
+}
